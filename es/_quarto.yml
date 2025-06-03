@@ -1,6 +1,11 @@
+project:
+  type: website
+  output-dir: ../docs/es
+
 website:
   title: "TASSN"
   favicon: ../favicon.ico
+  site-url: "https://transasylumsupport.github.io/es/"
   
   navbar:
     pinned: true
