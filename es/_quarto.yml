@@ -10,7 +10,7 @@ website:
   navbar:
     pinned: true
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: Inicio
       - href: about.qmd
         text: Acerca de
