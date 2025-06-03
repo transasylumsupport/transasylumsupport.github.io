@@ -9,7 +9,7 @@ website:
   navbar:
     pinned: true
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
