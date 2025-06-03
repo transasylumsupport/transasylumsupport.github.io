@@ -1,57 +1,43 @@
-project:
-  type: website
-  output-dir: docs
-
 website:
   title: "TASSN"
-  favicon: favicon.ico
+  favicon: ../favicon.ico
   
   navbar:
     pinned: true
     left:
       - href: home.qmd
-        text: Home
+        text: Inicio
       - href: about.qmd
-        text: About
+        text: Acerca de
     right: 
       - text: "{{< iconify bi instagram size=1.1em title='Instagram' >}}"
         href: "https://www.instagram.com/transasylumsupport/"
       - text: "{{< iconify bi facebook size=1.1em title='Facebook' >}}"
         href: "https://www.facebook.com/transasylumsupport"
-      - text: "{{< iconify bi heart size=1.1em title='Donate on Givebutter' >}}"
+      - text: "{{< iconify bi heart size=1.1em title='Donar en Givebutter' >}}"
         href: "https://givebutter.com/tassnxsupport?fbclid=PAZXh0bgNhZW0CMTEAAae6Q6dFJYk8SBKfZ6N8h_6Fq8Bs39Ia1_UzYYdyzTFzS3tCP7N1ZQXP4sxmdQ_aem_sPESXx_pZo_IXHukFaFx9Q"
-      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+      - text: "{{< iconify bi envelope size=1.1em title='Correo electrónico' >}}"
         href: "mailto:give.2.tassn@gmail.com"
-      - text: "🌐 Language"
+      - text: "🌐 Idioma"
         menu:
           - text: "English"
-            href: /
+            href: ../
           - text: "Español"
-            href: /es/home.qmd
+            href: ./
 
   page-footer:
     left: |
-      <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}}{{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
+      <span class="faux-block">Todo el contenido está licenciado bajo<br>[{{< fa brands creative-commons >}}{{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     background: light
 
   sidebar: 
     style: floating
 
-# Language configuration
-lang: en
-languages:
-  - id: en
-    title: "English"
-    dir: "."
-  - id: es
-    title: "Español"
-    dir: "es"
+lang: es
 
 format:
   html:
     theme: default
-    css: styles.css
+    css: ../styles.css
     toc: true
     toc-location: left
-
-editor: visual
