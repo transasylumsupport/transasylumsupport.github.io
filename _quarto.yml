@@ -25,9 +25,9 @@ website:
       - text: "🌐 Language"
         menu:
           - text: "English"
-            href: /
+            href: ./
           - text: "Español"
-            href: /es/home.qmd
+            href: es/
 
   page-footer:
     left: |
