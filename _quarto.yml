@@ -41,7 +41,7 @@ lang: en
 
 format:
   html:
-    theme: default
+    theme: flatly
     css: styles.css
     toc: true
     toc-location: left
