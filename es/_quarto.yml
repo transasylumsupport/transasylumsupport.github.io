@@ -42,7 +42,7 @@ lang: es
 
 format:
   html:
-    theme: default
-    css: ../styles.css
+    theme: flatly
+    css: styles.css
     toc: true
     toc-location: left
