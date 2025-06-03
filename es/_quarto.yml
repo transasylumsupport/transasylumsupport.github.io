@@ -17,8 +17,8 @@ website:
       - text: "{{< iconify bi heart size=1.1em title='Donar en Givebutter' >}}"
         href: "https://givebutter.com/tassnxsupport?fbclid=PAZXh0bgNhZW0CMTEAAae6Q6dFJYk8SBKfZ6N8h_6Fq8Bs39Ia1_UzYYdyzTFzS3tCP7N1ZQXP4sxmdQ_aem_sPESXx_pZo_IXHukFaFx9Q"
       - text: "{{< iconify bi envelope size=1.1em title='Correo electrónico' >}}"
-        href: "mailto:give.2.tassn@gmail.com"
-      - text: "🌐 Idioma"
+        href: "mailto:TASSN@proton.me"
+      - text: "{{< iconify bi globe size=1.1em title='Language' >}} Idioma"
         menu:
           - text: "English"
             href: ../
