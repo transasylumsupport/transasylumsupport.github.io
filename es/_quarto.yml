@@ -35,9 +35,6 @@ website:
       <span class="faux-block">Todo el contenido está licenciado bajo<br>[{{< fa brands creative-commons >}}{{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     background: light
 
-  sidebar: 
-    style: floating
-
 lang: es
 
 format:
