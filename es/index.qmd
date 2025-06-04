@@ -1,6 +1,7 @@
 ---
 title: "Red de Apoyo para Solicitantes de Asilo Trans"
 ---
+
 ```{=html}
 <div class="hero-section">
 <img src="imgs/tassn-logo.png" alt="TASSN Logo" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
@@ -12,7 +13,6 @@ Somos un colectivo de ayuda mutua anarquista y abolicionista de fronteras que ap
 </p>
 </div>
 ```
-
 
 ## **Apoya Nuestro Trabajo**
 

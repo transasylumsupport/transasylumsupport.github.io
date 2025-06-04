@@ -1,5 +1,6 @@
 ---
 title: "Trans Asylum Seeker Support Network"
+editor: source
 ---
 
 ```{=html}
@@ -12,6 +13,7 @@ We are an anarchist, border abolitionist mutual aid collective that supports que
 @transasylumsupport
 </p>
 </div>
+```
 
 ## **Support Our Work**
 
