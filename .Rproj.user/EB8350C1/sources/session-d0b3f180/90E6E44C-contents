@@ -123,6 +123,7 @@ h1 {
   background-clip: text;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 1.5rem;
   /* Fallback for browsers that don't support background-clip */
   color: var(--trans-blue-dark);
 }
@@ -212,7 +213,8 @@ a:hover {
 /* Hero section */
 .hero-section {
   text-align: center;
-  padding: 0;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
 }
 
 .hero-section .lead {
@@ -220,8 +222,8 @@ a:hover {
   font-weight: 400;
   color: var(--trans-blue-dark);
   max-width: 600px;
-  margin: 0.5rem auto;
-  line-height: 1.4;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 /* Donation cards */
