@@ -1,0 +1,59 @@
+---
+title: "Trans Asylum Seeker Support Network"
+---
+
+<div class="hero-section">
+<p class="lead">We are an anarchist, border abolitionist mutual aid collective that supports queer and trans asylum seekers.</p>
+</div>
+
+## **Support Our Work**
+
+Your donations directly fund emergency assistance, legal aid, and community support for trans asylum seekers.
+
+<div class="donation-cards">
+<div class="donation-card">
+### Recurring donations
+<div class="button-center">
+[<i class="fas fa-gift"></i>&ensp;**Donate on Givebutter**](https://givebutter.com/tassnxsupport){.btn .btn-primary}
+</div>
+</div>
+
+<div class="donation-card">
+### One-time donations
+<div class="button-center">
+[<i class="fa-solid fa-hand-holding-dollar"></i>&ensp;**Donate on Venmo**](https://venmo.com/u/transasylumsupport){.btn .btn-primary}
+</div>
+</div>
+</div>
+
+---
+
+## **How We Help**
+
+::: {.callout-note icon="false"}
+## {{< iconify bi shield-check >}} **Emergency Support**
+Immediate assistance for housing, food, and safety needs
+:::
+
+::: {.callout-note icon="false"}
+## {{< iconify bi people >}} **Community Connection**
+Connecting asylum seekers with local trans-affirming resources
+:::
+
+::: {.callout-note icon="false"}
+## {{< iconify bi briefcase >}} **Legal Aid Navigation**
+Guidance through the complex asylum process
+:::
+
+## **Stay Connected**
+<div class="social-links">
+[{{< iconify bi instagram >}} Instagram](https://www.instagram.com/transasylumsupport/){.social-link}
+
+<div style="margin: 1rem 0;"></div>
+
+[{{< iconify bi facebook >}} Facebook](https://www.facebook.com/transasylumsupport){.social-link}
+
+<div style="margin: 1rem 0;"></div>
+
+[{{< iconify bi envelope >}} Email](mailto:TASSN@proton.me){.social-link}
+</div>

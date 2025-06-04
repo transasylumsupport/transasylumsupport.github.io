@@ -1,0 +1,349 @@
+/* Trans Flag Color Scheme for Flatly Theme */
+/* Colors: Light Blue (#5BCEFA), Pink (#F5A9B8), White (#FFFFFF) */
+:root {
+  --trans-blue: #5BCEFA;
+  --trans-pink: #F5A9B8;
+  --trans-blue-dark: #3A8BC2;
+  --trans-pink-dark: #D8849A;
+  --trans-blue-light: #B8E6FC;
+  --trans-pink-light: #F9D4E1;
+  --trans-white: #FFFFFF;
+}
+/* Clean navbar styling */
+.navbar {
+  background-color: var(--trans-white) !important;
+  border-bottom: 3px solid var(--trans-blue-light);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+  background: linear-gradient(135deg, var(--trans-blue-dark), var(--trans-pink-dark)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* Fallback for browsers that don't support background-clip */
+  color: var(--trans-blue-dark);
+}
+.navbar-nav .nav-link {
+  color: var(--trans-blue-dark) !important;
+  font-weight: 500;
+  margin: 0 8px;
+}
+.navbar-nav .nav-link:hover {
+  color: var(--trans-pink-dark) !important;
+  background-color: var(--trans-blue-light);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+/* Social media icons and search icon in navbar */
+.navbar-nav .nav-link:has([class*="iconify"]),
+.navbar .aa-DetachedSearchButton,
+.navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon,
+.navbar .quarto-search-icon,
+.navbar .bi-search {
+  color: var(--trans-blue) !important;
+  margin: 0 4px;
+}
+.navbar-nav .nav-link:has([class*="iconify"]):hover,
+.navbar .aa-DetachedSearchButton:hover,
+.navbar .aa-DetachedSearchButton:hover .aa-DetachedSearchButtonIcon,
+.navbar .quarto-search-icon:hover,
+.navbar .bi-search:hover {
+  color: var(--trans-pink) !important;
+  background-color: transparent;
+  transform: scale(1.15);
+  transition: all 0.2s ease;
+}
+/* Search button specific styling */
+.navbar .aa-DetachedSearchButton {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+/* Language dropdown */
+.navbar-nav .dropdown-toggle {
+  color: var(--trans-blue-dark) !important;
+}
+.navbar-nav .dropdown-menu {
+  background-color: var(--trans-white);
+  border: 2px solid var(--trans-blue-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.navbar-nav .dropdown-item {
+  color: var(--trans-blue-dark);
+  padding: 8px 16px;
+}
+.navbar-nav .dropdown-item:hover {
+  background-color: var(--trans-blue-light);
+  color: var(--trans-blue-dark);
+}
+/* Main content area background */
+html, body {
+  background: linear-gradient(135deg, 
+    rgba(184, 230, 252, 0.03) 0%, 
+    rgba(249, 212, 225, 0.03) 100%) !important;
+  min-height: 100vh;
+}
+/* Target common Quarto containers */
+.page-columns,
+.content,
+.column-page,
+.column-body {
+  background: transparent !important;
+}
+/* Fix sidebar background */
+.sidebar,
+.sidebar-navigation,
+#quarto-sidebar,
+.quarto-sidebar-container,
+.sidebar-item-container {
+  background: transparent !important;
+}
+/* Active navigation item styling */
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-link.active {
+  background-color: var(--trans-blue-light) !important;
+  color: var(--trans-blue-dark) !important;
+  border-radius: 6px;
+  font-weight: 600;
+}
+/* Better focus states for accessibility */
+.navbar-nav .nav-link:focus,
+.navbar-nav .dropdown-toggle:focus {
+  outline: 2px solid var(--trans-pink);
+  outline-offset: 2px;
+}
+/* Improve the gradient title readability */
+h1 {
+  background: linear-gradient(135deg, var(--trans-blue-dark), var(--trans-pink-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  /* Fallback for browsers that don't support background-clip */
+  color: var(--trans-blue-dark);
+}
+h2, h3, h4, h5, h6 {
+  color: var(--trans-blue-dark);
+  font-weight: 600;
+}
+/* Links */
+a {
+  color: var(--trans-blue-dark);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--trans-pink-dark);
+  text-decoration: underline;
+}
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, var(--trans-blue), var(--trans-pink));
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(91, 206, 250, 0.4);
+}
+/* Cards and content boxes */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: var(--trans-white);
+  border-left: 4px solid var(--trans-pink);
+}
+/* Footer */
+.page-footer {
+  background: linear-gradient(135deg, var(--trans-blue-light), var(--trans-pink-light)) !important;
+  color: var(--trans-blue-dark);
+  border-top: 3px solid var(--trans-blue);
+  margin-top: 3rem;
+}
+/* Sidebar styling */
+.sidebar-navigation .sidebar-item a {
+  color: var(--trans-blue-dark);
+  border-radius: 6px;
+  margin: 2px 0;
+}
+.sidebar-navigation .sidebar-item a:hover {
+  color: var(--trans-pink-dark);
+  background-color: var(--trans-blue-light);
+}
+/* Typography improvements */
+/* Removed to keep original font */
+/* Subtle animations */
+.navbar, .card, .btn {
+  transition: all 0.3s ease;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  .donation-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* Homepage specific styling */
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.hero-section .lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--trans-blue-dark);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Donation cards */
+.donation-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.donation-card {
+  background: var(--trans-white);
+  border: 2px solid var(--trans-blue-light);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(91, 206, 250, 0.2);
+}
+
+.donation-card h3 {
+  color: var(--trans-blue-dark);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.donation-card p {
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Center donation buttons */
+.button-center {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Enhanced button styling */
+.btn-primary {
+  background: linear-gradient(135deg, var(--trans-blue), var(--trans-pink));
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem 0;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(91, 206, 250, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  border: 2px solid var(--trans-blue);
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: var(--trans-blue-dark);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background: var(--trans-blue-light);
+  color: var(--trans-blue-dark);
+  text-decoration: none;
+}
+
+/* Callout boxes for services */
+.callout-note {
+  border-left: 4px solid var(--trans-pink);
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.callout-note .callout-title {
+  color: var(--trans-blue-dark);
+  font-weight: 600;
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social-link {
+  background: var(--trans-blue-light);
+  color: var(--trans-blue-dark);
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-link:hover {
+  background: var(--trans-pink-light);
+  color: var(--trans-pink-dark);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
