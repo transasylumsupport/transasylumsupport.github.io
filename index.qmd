@@ -2,4 +2,6 @@
 title: "Trans Asylum Seeker Support Network"
 ---
 
+![](imgs/tassn-logo.jpeg){fig-align="center" width="361"}
+
 We are an abolitionist mutual aid collective that supports trans asylum seekers.
