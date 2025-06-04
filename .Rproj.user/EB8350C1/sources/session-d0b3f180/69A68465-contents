@@ -2,15 +2,21 @@
 title: "Red de Apoyo para Solicitantes de Asilo Trans"
 ---
 
-<div class="hero-section">
-<img src="imgs/tassn-logo.png" alt="TASSN Logo" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
+::: hero-section
+<img src="imgs/tassn-logo.png" alt="Logo de TASSN" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
+
 <p class="lead">
+
 Somos un colectivo de ayuda mutua anarquista y abolicionista de fronteras que apoya a solicitantes de asilo queer y trans.
+
 </p>
+
 <p class="lead" style="color: #D8849A;">
+
 @transasylumsupport
+
 </p>
-</div>
+:::
 
 ## **Apoya Nuestro Trabajo**
 

@@ -2,30 +2,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "La Red de Apoyo para Solicitantes de Asilo Trans",
+    "title": "Red de Apoyo para Solicitantes de Asilo Trans",
     "section": "",
-    "text": "Somos un colectivo abolicionista de fronteras, acción directa y ayuda mutua que apoya a personas trans y queer que buscan asilo."
+    "text": "Somos un colectivo de ayuda mutua anarquista y abolicionista de fronteras que apoya a solicitantes de asilo queer y trans.\n\n\n@transasylumsupport"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contáctanos",
-    "section": "",
-    "text": "Correo electrónico: TASSN@proton.me"
+    "objectID": "index.html#apoya-nuestro-trabajo",
+    "href": "index.html#apoya-nuestro-trabajo",
+    "title": "Red de Apoyo para Solicitantes de Asilo Trans",
+    "section": "Apoya Nuestro Trabajo",
+    "text": "Apoya Nuestro Trabajo\nTus donaciones financian directamente asistencia de emergencia, ayuda legal y apoyo comunitario para solicitantes de asilo trans.\n\n\nDonaciones recurrentes\n\n Donar en Givebutter\n\n\n\nDonaciones únicas\n\n Donar en Venmo"
   },
   {
-    "objectID": "contact.html#contacto-principal",
-    "href": "contact.html#contacto-principal",
-    "title": "Contáctanos",
-    "section": "",
-    "text": "Correo electrónico: TASSN@proton.me"
+    "objectID": "index.html#cómo-ayudamos",
+    "href": "index.html#cómo-ayudamos",
+    "title": "Red de Apoyo para Solicitantes de Asilo Trans",
+    "section": "Cómo Ayudamos",
+    "text": "Cómo Ayudamos\n\n\n\n\n\n\n Apoyo de Emergencia\n\n\n\nAsistencia inmediata para necesidades de vivienda, alimentación y seguridad\n\n\n\n\n\n\n\n\n Conexión Comunitaria\n\n\n\nConectando a solicitantes de asilo con recursos locales que afirman la identidad trans\n\n\n\n\n\n\n\n\n Navegación de Ayuda Legal\n\n\n\nOrientación a través del complejo proceso de asilo"
   },
   {
-    "objectID": "contact.html#síguenos",
-    "href": "contact.html#síguenos",
-    "title": "Contáctanos",
-    "section": "Síguenos",
-    "text": "Síguenos\nMantente conectado con nuestra comunidad y las últimas actualizaciones:\n\nInstagram: @transasylumsupport\nFacebook: Trans Asylum Support Network"
+    "objectID": "index.html#mantente-conectado",
+    "href": "index.html#mantente-conectado",
+    "title": "Red de Apoyo para Solicitantes de Asilo Trans",
+    "section": "Mantente Conectado",
+    "text": "Mantente Conectado\n\n Instagram\n\n\n\n Facebook\n\n\n\n Correo"
   },
   {
     "objectID": "about.html",
@@ -68,5 +68,26 @@
     "title": "Acerca de",
     "section": "Apoya Nuestro Trabajo",
     "text": "Apoya Nuestro Trabajo\nLos donantes mensuales sostienen nuestro compromiso de siete años con cada solicitante de asilo. Las donaciones recurrentes nos ayudan a planificar apoyo consistente y a largo plazo.\nLas donaciones únicas siempre son apreciadas. Para donaciones mayores a $500, por favor usa Venmo @transasylumsupport para evitar tarifas de procesamiento y maximizar la ayuda directa."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contáctanos",
+    "section": "",
+    "text": "Correo electrónico: TASSN@proton.me"
+  },
+  {
+    "objectID": "contact.html#contacto-principal",
+    "href": "contact.html#contacto-principal",
+    "title": "Contáctanos",
+    "section": "",
+    "text": "Correo electrónico: TASSN@proton.me"
+  },
+  {
+    "objectID": "contact.html#síguenos",
+    "href": "contact.html#síguenos",
+    "title": "Contáctanos",
+    "section": "Síguenos",
+    "text": "Síguenos\nMantente conectado con nuestra comunidad y las últimas actualizaciones:\n\nInstagram: @transasylumsupport\nFacebook: Trans Asylum Support Network"
   }
 ]

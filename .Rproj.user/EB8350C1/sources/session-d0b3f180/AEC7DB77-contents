@@ -2,15 +2,21 @@
 title: "Trans Asylum Seeker Support Network"
 ---
 
-<div class="hero-section">
+::: hero-section
 <img src="imgs/tassn-logo.png" alt="TASSN Logo" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
+
 <p class="lead">
+
 We are an anarchist, border abolitionist mutual aid collective that supports queer and trans asylum seekers.
+
 </p>
+
 <p class="lead" style="color: #D8849A;">
+
 @transasylumsupport
+
 </p>
-</div>
+:::
 
 ## **Support Our Work**
 
