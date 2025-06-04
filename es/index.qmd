@@ -1,7 +1,7 @@
 ---
 title: "Red de Apoyo para Solicitantes de Asilo Trans"
 ---
-
+```{=html}
 <div class="hero-section">
 <img src="imgs/tassn-logo.png" alt="TASSN Logo" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
 <p class="lead">
@@ -11,6 +11,8 @@ Somos un colectivo de ayuda mutua anarquista y abolicionista de fronteras que ap
 @transasylumsupport
 </p>
 </div>
+```
+
 
 ## **Apoya Nuestro Trabajo**
 
@@ -21,7 +23,7 @@ Tus donaciones financian directamente asistencia de emergencia, ayuda legal y ap
 ### Donaciones recurrentes
 
 ::: button-center
-[<i class="fas fa-gift"></i> **Donar en Givebutter**](https://givebutter.com/tassnxsupport){.btn .btn-primary}
+[<i class="fas fa-gift"></i> **Donar en Givebutter**](https://givebutter.com/tassnxsupport){.btn .btn-primary}
 :::
 ::::
 
@@ -29,7 +31,7 @@ Tus donaciones financian directamente asistencia de emergencia, ayuda legal y ap
 ### Donaciones únicas
 
 ::: button-center
-[<i class="fa-solid fa-hand-holding-dollar"></i> **Donar en Venmo**](https://venmo.com/u/transasylumsupport){.btn .btn-primary}
+[<i class="fa-solid fa-hand-holding-dollar"></i> **Donar en Venmo**](https://venmo.com/u/transasylumsupport){.btn .btn-primary}
 :::
 ::::
 :::::::

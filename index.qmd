@@ -2,6 +2,7 @@
 title: "Trans Asylum Seeker Support Network"
 ---
 
+```{=html}
 <div class="hero-section">
 <img src="imgs/tassn-logo.png" alt="TASSN Logo" style="width: 403px; max-width: 100%; margin: 0rem auto 0 auto !important; padding: 0 !important; display: block;"/>
 <p class="lead">
