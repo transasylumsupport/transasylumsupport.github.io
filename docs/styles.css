@@ -231,16 +231,23 @@ a:hover {
     font-size: 1.25rem;
   }
   
-  h1 {
-    font-size: 1.75rem;
+  /* Hide the mobile title banner - try these mobile-specific selectors */
+  header,
+  .quarto-title-block,
+  .title-block,
+  .page-layout-article header,
+  .quarto-layout-panel header,
+  .content-header,
+  header[role="banner"]:not(.navbar),
+  .d-block.d-lg-none {
+    display: none !important;
   }
   
-  /* Hide the title banner area on mobile */
-  .quarto-title-banner,
-  .title-block-banner,
-  #title-block-header,
-  .page-columns .column-page-left {
-    display: none !important;
+  /* Keep the navbar visible */
+  .navbar,
+  .navbar-header,
+  nav.navbar {
+    display: flex !important;
   }
   
   /* Keep the navbar title visible */
@@ -248,3 +255,5 @@ a:hover {
     display: block !important;
   }
 }
+
+/* Remove the general hiding rule */

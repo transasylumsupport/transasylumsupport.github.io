@@ -42,12 +42,7 @@
 .navbar .aa-DetachedSearchButton,
 .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon,
 .navbar .quarto-search-icon,
-.navbar .bi-search,
-.navbar-nav .nav-link i,
-.navbar-nav .nav-link svg,
-.navbar button[data-bs-toggle="modal"],
-.navbar .quarto-navbar-tools .nav-link,
-.navbar .quarto-navbar-tools button {
+.navbar .bi-search {
   color: var(--trans-blue) !important;
   margin: 0 4px;
 }
@@ -56,22 +51,11 @@
 .navbar .aa-DetachedSearchButton:hover,
 .navbar .aa-DetachedSearchButton:hover .aa-DetachedSearchButtonIcon,
 .navbar .quarto-search-icon:hover,
-.navbar .bi-search:hover,
-.navbar-nav .nav-link i:hover,
-.navbar-nav .nav-link svg:hover,
-.navbar button[data-bs-toggle="modal"]:hover,
-.navbar .quarto-navbar-tools .nav-link:hover,
-.navbar .quarto-navbar-tools button:hover {
+.navbar .bi-search:hover {
   color: var(--trans-pink) !important;
   background-color: transparent;
   transform: scale(1.15);
   transition: all 0.2s ease;
-}
-
-/* Catch-all for any navbar icons */
-.navbar-nav .nav-link *,
-.navbar .quarto-navbar-tools * {
-  color: inherit !important;
 }
 
 /* Search button specific styling */
@@ -233,18 +217,5 @@ a:hover {
   
   h1 {
     font-size: 1.75rem;
-  }
-  
-  /* Hide the title banner area on mobile */
-  .quarto-title-banner,
-  .title-block-banner,
-  #title-block-header,
-  .page-columns .column-page-left {
-    display: none !important;
-  }
-  
-  /* Keep the navbar title visible */
-  .navbar-brand {
-    display: block !important;
   }
 }
