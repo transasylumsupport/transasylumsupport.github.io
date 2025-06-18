@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://transasylumsupport.github.io/es/index.html</loc>
-    <lastmod>2025-06-04T18:02:43.655Z</lastmod>
+    <lastmod>2025-06-18T15:30:28.098Z</lastmod>
   </url>
   <url>
     <loc>https://transasylumsupport.github.io/es/about.html</loc>
@@ -11,5 +11,9 @@
   <url>
     <loc>https://transasylumsupport.github.io/es/contact.html</loc>
     <lastmod>2025-06-04T04:26:52.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://transasylumsupport.github.io/es/resources.html</loc>
+    <lastmod>2025-06-18T15:33:07.072Z</lastmod>
   </url>
 </urlset>
