@@ -16,6 +16,8 @@ website:
         text: About
       - href: contact.qmd
         text: Contact
+      - href: resources.qmd
+        text: Resources
     right: 
       - text: "{{< iconify bi instagram size=1.1em title='Instagram' >}}"
         href: "https://www.instagram.com/transasylumsupport/"
